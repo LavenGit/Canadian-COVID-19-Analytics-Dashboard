@@ -82,11 +82,6 @@ setwd("path/to/Canadian-COVID19-Analytics")
 
 Replace the example path with the actual location of the project on your computer.
 
-You can now run:
-
-source("scripts/import_data.R")
-shiny::runApp()
-
 Note: You only need to import the CSV into SQLite the first time, or whenever you want to rebuild the database.
 ### 4. Install Required Packages
 
