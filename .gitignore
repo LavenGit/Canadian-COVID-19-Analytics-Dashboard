@@ -1,0 +1,12 @@
+# R and RStudio files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Generated SQLite database
+database/*.sqlite
+
+# Temporary files
+*.log
+*.tmp
