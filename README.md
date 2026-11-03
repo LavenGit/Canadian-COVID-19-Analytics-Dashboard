@@ -68,18 +68,21 @@ Alternatively, download the repository as a ZIP file and extract it.
 
 ### 3. Open the Project in RStudio
 
-Open the project folder in RStudio.
 
-Ensure the R working directory points to the `Canadian-COVID19-Analytics` folder. You can verify this using:
+  i) Navigate to the downloaded or cloned project folder.
+
+  ii) Open the app.R file in RStudio.
+
+  iii) Set the working directory to the project folder if necessary.
 
 ```r
 getwd()
 ```
 
 If necessary, change it to the folder where you cloned or downloaded the project:
-
+```r
 setwd("path/to/Canadian-COVID19-Analytics")
-
+```
 Replace the example path with the actual location of the project on your computer.
 
 Note: You only need to import the CSV into SQLite the first time, or whenever you want to rebuild the database.
